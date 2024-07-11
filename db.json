@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "c785",
+      "name": "test user",
+      "email": "test@example.com",
+      "password": "test",
+      "todoList": []
+    },
+    {
+      "id": "3002",
+      "name": "test user",
+      "email": "test@example.com",
+      "password": "test",
+      "todoList": []
+    },
+    {
+      "id": "ff3e",
+      "name": "test user",
+      "email": "test@example.com",
+      "password": "test"
+    }
+  ],
+  "products": [],
+  "cart": [],
+  "orders": []
+}
