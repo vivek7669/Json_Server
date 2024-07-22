@@ -6,6 +6,13 @@
     "city": "Surat",
     "password": "vivek",
     "id": 2
+  },
+    {
+    "username": "chauhan aryan",
+    "email": "aryan@gmail.com",
+    "city": "Surat",
+    "password": "aryan",
+    "id": 2
   }
   ],
   "products": [
