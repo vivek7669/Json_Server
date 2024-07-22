@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+    "username": "chauhan vivek",
+    "email": "vivek@gmail.com",
+    "city": "Surat",
+    "password": "vivek",
+    "id": 01
+  }
+  ],
   "products": [
               {
                 "id": 1,
