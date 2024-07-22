@@ -525,6 +525,57 @@
                 "mealType": ["Beverage"],
                 "city": "Ranchi"
               }
+              {
+                "id": 31,
+                "name": "South Indian Masala Dosa",
+                "prepTimeMinutes": 40,
+                "cookTimeMinutes": 20,
+                "servings": 4,
+                "difficulty": "Medium",
+                "cuisine": "Indian",
+                "caloriesPerServing": 320,
+                "tags": ["Dosa", "Indian", "Asian"],
+                "userId": 138,
+                "image": "https://cdn.dummyjson.com/recipe-images/28.webp",
+                "rating": 4.4,
+                "reviewCount": 96,
+                "mealType": ["Breakfast"],
+                "city": "Surat"
+              },
+              {
+                "id": 32,
+                "name": "Lebanese Falafel Wrap",
+                "prepTimeMinutes": 15,
+                "cookTimeMinutes": 10,
+                "servings": 2,
+                "difficulty": "Easy",
+                "cuisine": "Lebanese",
+                "caloriesPerServing": 400,
+                "tags": ["Falafel", "Lebanese", "Wrap"],
+                "userId": 110,
+                "image": "https://cdn.dummyjson.com/recipe-images/29.webp",
+                "rating": 4.7,
+                "reviewCount": 84,
+                "mealType": ["Lunch"],
+                "city": "Surat"
+              },
+              {
+                "id": 33,
+                "name": "Brazilian Caipirinha",
+                "prepTimeMinutes": 5,
+                "cookTimeMinutes": 0,
+                "servings": 1,
+                "difficulty": "Easy",
+                "cuisine": "Brazilian",
+                "caloriesPerServing": 150,
+                "tags": ["Caipirinha", "Brazilian", "Cocktail"],
+                "userId": 134,
+                "image": "https://cdn.dummyjson.com/recipe-images/30.webp",
+                "rating": 4.4,
+                "reviewCount": 55,
+                "mealType": ["Beverage"],
+                "city": "Surat"
+              }
   ],
   "cart": [],
   "orders": []
