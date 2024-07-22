@@ -1,7 +1,6 @@
 {
   "users": [],
   "products": [
-    "Food_Data": [
               {
                 "id": 1,
                 "name": "Classic Margherita Pizza",
@@ -526,8 +525,6 @@
                 "mealType": ["Beverage"],
                 "city": "Ranchi"
               }
-            ]
-          }
   ],
   "cart": [],
   "orders": []
