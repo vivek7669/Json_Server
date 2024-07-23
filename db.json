@@ -705,6 +705,18 @@
       "clean_url": "https://www.udemy.com/course/gemini-ai-course-for-beginners/"
     }
   ],
-    "cart": [],
+    "cart": [ 
+        {
+      "name": "100% OFF- Python,Flask Framework And Django Course For Beginners",
+      "category": "IT & Software",
+      "image": "https://img-c.udemycdn.com/course/480x270/3330326_a986.jpg",
+      "actual_price_usd": 49.99,
+      "sale_price_usd": 0.0,
+      "sale_end": "2024-07-25T03:44:00",
+      "description": "Python,Flask Framework And Django Course For Beginners, Python Complete Course With Django And Flask Frameworks.Beginner to Expert Python.Creating your own ...",
+      "url": "https://www.udemy.com/course/python-and-flask-and-django-course-for-beginners/?couponCode=4D04D53FF078618A3241",
+      "clean_url": "https://www.udemy.com/course/python-and-flask-and-django-course-for-beginners/"
+    }
+    ],
     "orders": []
   }
