@@ -592,7 +592,22 @@
                   "city": "Surat"
                 }
     ],
-    "eusers":[],
+    "eusers":[
+        {
+            "username": "vivek",
+            "email": "vivek@gmail.com",
+            "role": "user",
+            "password": "vivek",
+            "id": 1
+        },
+        {
+        "username": "vicky",
+        "email": "vicky@gmail.com",
+        "role": "admin",
+        "password": "vicky",
+        "id": 2
+        }
+    ],
   "courses": [
     { 
       "id": 1,
