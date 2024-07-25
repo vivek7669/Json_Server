@@ -16,7 +16,283 @@
     }
     ],
     "travel_user" : [],
-    "travel_data" : [],
+    "travel_data" : [
+        {
+  "trip": {
+    "tripId": "001",
+    "name": "Summer Vacation 2024",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-20",
+    "price": {
+      "tripPrice": 4500,
+      "totalPrice": 12000
+    }
+  },
+  "travelers": [
+    {
+      "travelerId": "1001",
+      "name": "Alice Johnson",
+      "age": 28,
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "travelerId": "1002",
+      "name": "Bob Smith",
+      "age": 32,
+      "email": "bob.smith@example.com"
+    },
+    {
+      "travelerId": "1003",
+      "name": "Charlie Brown",
+      "age": 35,
+      "email": "charlie.brown@example.com"
+    }
+  ],
+  "destinations": [
+    {
+      "destinationId": "d001",
+      "name": "Paris",
+      "country": "France",
+      "arrivalDate": "2024-08-01",
+      "departureDate": "2024-08-05",
+      "images": [
+        {
+          "url": "https://example.com/images/paris1.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/paris1_thumb.jpg"
+        },
+        {
+          "url": "https://example.com/images/paris2.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/paris2_thumb.jpg"
+        }
+      ],
+      "accommodations": {
+        "hotelName": "Hotel Parisian",
+        "address": "123 Champs-Élysées, Paris, France",
+        "checkInDate": "2024-08-01",
+        "checkOutDate": "2024-08-05",
+        "facilities": [
+          "Free WiFi",
+          "Breakfast included",
+          "Airport shuttle",
+          "24-hour front desk"
+        ]
+      },
+      "activities": [
+        {
+          "activityId": "a001",
+          "name": "Eiffel Tower Tour",
+          "date": "2024-08-02",
+          "time": "10:00 AM",
+          "description": "Guided tour of the Eiffel Tower.",
+          "images": [
+            {
+              "url": "https://example.com/images/eiffel_tower1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/eiffel_tower1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r001",
+              "travelerId": "1001",
+              "rating": 5,
+              "comment": "Amazing experience!"
+            },
+            {
+              "reviewId": "r002",
+              "travelerId": "1002",
+              "rating": 4,
+              "comment": "Great tour, a bit crowded."
+            }
+          ]
+        },
+        {
+          "activityId": "a002",
+          "name": "Louvre Museum Visit",
+          "date": "2024-08-03",
+          "time": "02:00 PM",
+          "description": "Explore the Louvre Museum.",
+          "images": [
+            {
+              "url": "https://example.com/images/louvre1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/louvre1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r003",
+              "travelerId": "1001",
+              "rating": 5,
+              "comment": "Incredible collection of art!"
+            }
+          ]
+        }
+      ],
+      "transportation": {
+        "type": "flight",
+        "flightNumber": "AF123",
+        "departureAirport": "JFK",
+        "arrivalAirport": "CDG",
+        "departureTime": "2024-07-31T18:00:00Z",
+        "arrivalTime": "2024-08-01T06:00:00Z"
+      }
+    },
+    {
+      "destinationId": "d002",
+      "name": "Rome",
+      "country": "Italy",
+      "arrivalDate": "2024-08-05",
+      "departureDate": "2024-08-10",
+      "images": [
+        {
+          "url": "https://example.com/images/rome1.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/rome1_thumb.jpg"
+        },
+        {
+          "url": "https://example.com/images/rome2.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/rome2_thumb.jpg"
+        }
+      ],
+      "accommodations": {
+        "hotelName": "Hotel Romano",
+        "address": "456 Via Veneto, Rome, Italy",
+        "checkInDate": "2024-08-05",
+        "checkOutDate": "2024-08-10",
+        "facilities": [
+          "Free WiFi",
+          "Breakfast included",
+          "Gym",
+          "24-hour front desk"
+        ]
+      },
+      "activities": [
+        {
+          "activityId": "a003",
+          "name": "Colosseum Tour",
+          "date": "2024-08-06",
+          "time": "11:00 AM",
+          "description": "Historical tour of the Colosseum.",
+          "images": [
+            {
+              "url": "https://example.com/images/colosseum1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/colosseum1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r004",
+              "travelerId": "1002",
+              "rating": 5,
+              "comment": "A must-see!"
+            }
+          ]
+        },
+        {
+          "activityId": "a004",
+          "name": "Vatican Museums Visit",
+          "date": "2024-08-07",
+          "time": "03:00 PM",
+          "description": "Visit to the Vatican Museums.",
+          "images": [
+            {
+              "url": "https://example.com/images/vatican1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/vatican1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r005",
+              "travelerId": "1001",
+              "rating": 4,
+              "comment": "Stunning artworks, but very crowded."
+            }
+          ]
+        }
+      ],
+      "transportation": {
+        "type": "train",
+        "trainNumber": "TR456",
+        "departureStation": "Gare de Lyon",
+        "arrivalStation": "Roma Termini",
+        "departureTime": "2024-08-05T07:00:00Z",
+        "arrivalTime": "2024-08-05T12:00:00Z"
+      }
+    },
+    {
+      "destinationId": "d003",
+      "name": "Barcelona",
+      "country": "Spain",
+      "arrivalDate": "2024-08-10",
+      "departureDate": "2024-08-15",
+      "images": [
+        {
+          "url": "https://example.com/images/barcelona1.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/barcelona1_thumb.jpg"
+        },
+        {
+          "url": "https://example.com/images/barcelona2.jpg",
+          "thumbnail": "https://example.com/images/thumbnails/barcelona2_thumb.jpg"
+        }
+      ],
+      "accommodations": {
+        "hotelName": "Hotel Catalonia",
+        "address": "789 La Rambla, Barcelona, Spain",
+        "checkInDate": "2024-08-10",
+        "checkOutDate": "2024-08-15",
+        "facilities": [
+          "Free WiFi",
+          "Breakfast included",
+          "Swimming pool",
+          "24-hour front desk"
+        ]
+      },
+      "activities": [
+        {
+          "activityId": "a005",
+          "name": "Sagrada Família Tour",
+          "date": "2024-08-11",
+          "time": "10:00 AM",
+          "description": "Visit to the iconic Sagrada Família.",
+          "images": [
+            {
+              "url": "https://example.com/images/sagrada_familia1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/sagrada_familia1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r006",
+              "travelerId": "1001",
+              "rating": 5,
+              "comment": "Breathtaking architecture!"
+            }
+          ]
+        },
+        {
+          "activityId": "a006",
+          "name": "Park Güell Visit",
+          "date": "2024-08-12",
+          "time": "02:00 PM",
+          "description": "Explore the unique Park Güell.",
+          "images": [
+            {
+              "url": "https://example.com/images/park_guell1.jpg",
+              "thumbnail": "https://example.com/images/thumbnails/park_guell1_thumb.jpg"
+            }
+          ],
+          "reviews": [
+            {
+              "reviewId": "r007",
+              "travelerId": "1002",
+              "rating": 4,
+              "comment": "Colorful and fun!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+    ],
     "products": [
                 {
                   "id": 1,
